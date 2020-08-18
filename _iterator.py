@@ -12,7 +12,7 @@ def using_loops(iterable):
     for item in iterable:
         print(item)
 
-
+# using an iterator to traverse collection
 def using_iterator(iterable):
     iterator = iter(iterable)
 
