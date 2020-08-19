@@ -20,8 +20,8 @@ def print_name(name):
 
 
 if __name__ == '__main__':
-    # result_func = decor(print_name)
-    # result_func("nb")
+    result_func = decor(print_name)
+    result_func("nb")
 
     """
         Additionally, we can use python handy decorator feature @decorator_name to implictly call the decorator function 
